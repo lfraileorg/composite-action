@@ -20,6 +20,7 @@ runs:
         
     - run: |
         node -v
+      shell: bash
         
     - run: echo Hello ${{ inputs.who-to-greet }}.
       shell: bash

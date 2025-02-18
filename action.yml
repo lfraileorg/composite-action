@@ -14,9 +14,9 @@ runs:
   steps:
   
     - name: Setup Node.js environment
-      uses: actions/setup-node@v2.5.0
+      uses: actions/setup-node@v5
       with:        
-        node-version: 10.15.0  
+        node-version: 16
         
     - run: |
         node -v
